@@ -4,3 +4,35 @@
     border: 3px solid #00f;
     max-width: 1240px;
 }
+
+.brancoBranco {
+    display: flex; 
+    /* border: 1px solid #dc0;  */
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.brancoCinza {
+    display: flex; 
+    /* border: 1px solid #dc0;  */
+    width: 50px;
+    height: 50px;
+    background-color: #fafafa;
+}
+
+.pretoPreto {
+    display: flex; 
+    /* border: 1px solid #dc0;  */
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+}
+
+.pretoCinza {
+    display: flex; 
+    /* border: 1px solid #dc0;  */
+    width: 50px;
+    height: 50px;
+    background-color: #212121;
+}
