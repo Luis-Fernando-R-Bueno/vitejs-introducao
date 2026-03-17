@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1240px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin-top: 1rem;
+    min-height: max-content;
+    /* border: 1px solid red; */
+}
+
+.titulo{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+}
+
+.subTitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+}
+
+.rodape{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: auto;
+}
