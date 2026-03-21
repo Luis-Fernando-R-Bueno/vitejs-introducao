@@ -3,6 +3,17 @@
     font-family: 'sans-serif';
 }
 
+/* .botaoMockup{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+}
+
+.input {
+    flex: 1;
+} */
+
 .lista {
     display: flex;
     flex-direction: column; 
@@ -29,6 +40,19 @@
     flex: auto;   
 }
 
-.botao {
+.botaoGrupo {
     display: flex;
+    gap: 0.5rem;
+   
+}
+
+.botao{
+    background-color: #ffffff;
+    color: purple;
+    border: 0.3rem solid purple;
+}
+
+.botao:hover{
+    background-color: purple;
+    color: #ffffff;
 }

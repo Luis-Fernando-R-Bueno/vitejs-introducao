@@ -54,8 +54,9 @@ function Exemplo03() {
 
       <h1>Mockup CRUD Vite</h1>
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className={styles.botaoMockup}>
         <input 
+          className={styles.input}
           type="text" 
           value={inputValue} 
           onChange={(e) => setInputValue(e.target.value)}
@@ -80,9 +81,9 @@ function Exemplo03() {
               <span className={styles.conteudo}>{item.text}</span>
             </div>
 
-            <div className={styles.botao}>
-              <button onClick={() => startEdit(item)}>Editar</button>
-              <button onClick={() => deleteItem(item.id)}>Excluir</button>
+            <div className={styles.botaoGrupo}>
+              <button onClick={() => startEdit(item)} className={styles.botao}>Editar</button>
+              <button onClick={() => deleteItem(item.id)} className={styles.botao}>Excluir</button>
             </div>
 
           </li>
