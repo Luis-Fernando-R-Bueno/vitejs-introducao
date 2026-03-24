@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 
 import App from './App.jsx';
+
 import './estilos/reset.css';
 import './estilos/globals.css';
 
@@ -13,4 +14,4 @@ root.render(
       <App />
     </BrowserRouter>
   </React.StrictMode>
-); 
+);

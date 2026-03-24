@@ -10,7 +10,7 @@
   /* place-items: center; */
   min-width: 32rem;
   min-height: 100vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* box-sizing: border-box; */
   width: 100%;
 }
@@ -68,7 +68,8 @@ small {
 a {
   text-decoration: none;
   font-size: 1.6rem; 
-  color: cornflowerblue;
+  color: cornflowerblue; 
+  margin-bottom: 0.5rem;
 }
 
 

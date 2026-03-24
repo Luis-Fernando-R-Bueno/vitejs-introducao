@@ -1,0 +1,25 @@
+.botao {
+    padding: 1rem 2rem;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.cadastro {
+    background-color: forestgreen;
+}
+
+.edicao {
+    background-color: deepskyblue;
+}
+
+.listagem {
+    background-color: darkorange;
+}
+
+.exclusao {
+    background-color: crimson;
+}
+
+.anulacao {
+    background-color: dimgrey;
+}

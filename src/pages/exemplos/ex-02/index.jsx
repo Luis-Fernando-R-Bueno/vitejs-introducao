@@ -1,4 +1,5 @@
-import styles from'./index.module.css';
+
+import styles from './index.module.css';
 
 function Exemplo02() {
 

@@ -1,58 +1,26 @@
 .container {
-    padding: 20rem; 
-    font-family: 'sans-serif';
-}
-
-/* .botaoMockup{
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    align-items: flex-start;
+    justify-content: center;
+    height: 96vh;
 }
 
-.input {
-    flex: 1;
-} */
-
-.lista {
-    display: flex;
-    flex-direction: column; 
-    width: 40rem; 
-
+.texto {
+    font-size: 3.5rem;
+    margin: 2rem 0;
 }
 
-.linha {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 1rem 0;
-    border-bottom: 0.3rem solid #000;
-    padding-bottom: 0.2rem;
+.botao {
+    font-size: 3rem;
+    border: 0.3rem solid #000;
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
 }
 
-.conteudo {
-    margin-right: 1rem; 
-    font-size: 1.6rem;
-}
-
-.nomeItem {
-    flex: auto;   
-}
-
-.botaoGrupo {
-    display: flex;
-    gap: 0.5rem;
-   
-}
-
-.botao{
-    background-color: #ffffff;
-    color: purple;
-    border: 0.3rem solid purple;
-}
-
-.botao:hover{
-    background-color: purple;
-    color: #ffffff;
+.botao:hover {
+    color: #fafafa;
+    background-color: #000;
+    cursor: pointer;
 }

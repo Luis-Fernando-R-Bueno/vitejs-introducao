@@ -1,9 +1,9 @@
 import styles from './index.module.css';
 
-export default function Atividade01 () {
+export default function Atividade04 () {
     return(
         <>
-            <h1 className={styles.titulo}>Atividade 1</h1>
+            <h1 className={styles.titulo}>Atividade 5</h1>
             
             <p>Componente mínimo</p>
         </>

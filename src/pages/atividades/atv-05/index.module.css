@@ -1,0 +1,31 @@
+.container {
+    padding: 20rem; 
+    font-family: 'sans-serif';
+}
+
+.lista {
+    display: flex;
+    flex-direction: column; 
+    width: 40rem; 
+
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+    border-bottom: 0.3rem solid #000;
+    padding-bottom: 0.2rem;
+}
+
+.conteudo {
+    margin-right: 1rem; 
+    font-size: 1.6rem;
+}
+
+.botao {
+    background-color: #fafafa; 
+    border: 0.3rem solid #646cff;
+}
