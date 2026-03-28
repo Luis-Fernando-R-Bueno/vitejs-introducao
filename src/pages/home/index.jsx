@@ -20,6 +20,9 @@ function Home() {
         <Link to="/exemplo/10">Exemplo 10 - Dashboard</Link>
         <Link to="/exemplo/11">Exemplo 11 - Mockup</Link>
         <Link to="/exemplo/12">Exemplo 12 - Mockup + Local Storage</Link>
+        <Link to="/exemplo/13">Exemplo 13 - Validação básica</Link>
+        <Link to="/exemplo/14">Exemplo 14 - Validação state</Link>
+        <Link to="/exemplo/15">Exemplo 15 - useForm</Link>
       </div>
       <div className={styles.containerLista}>
         <h1>Atividades</h1>
@@ -29,6 +32,10 @@ function Home() {
         <Link to="/atividade/4">Atividade 4 - Formulário livre</Link>
         <Link to="/atividade/5">Atividade 5 - Formulário simulação</Link>
         <Link to="/atividade/6">Atividade 6 - Local Storage</Link>
+        <Link to="/atividade/7">Atividade 7 - Múltiplos estados e fornecer feedback numérico em tempo real</Link>
+        <Link to="/atividade/8">Atividade 8 - onChange, onSubmit e formData</Link>
+        <Link to="/atividade/9">Atividade 9 - Validação com useForm</Link>
+        <Link to="/atividade/10">Atividade 10 - Desafio final</Link>
       </div>
     </div>
   )
