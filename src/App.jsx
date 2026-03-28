@@ -16,18 +16,18 @@ import Exemplo11 from './pages/exemplos/ex-11';
 import Exemplo12 from './pages/exemplos/ex-12';
 import Exemplo13 from './pages/exemplos/ex-13';
 import Exemplo14 from './pages/exemplos/ex-14'; 
-import Exemplo15 from './pages/exemplos/ex-15';
+// import Exemplo15 from './pages/exemplos/ex-15';
 
 import Atividade01 from './pages/atividades/atv-01';
 import Atividade02 from './pages/atividades/atv-02';
 import Atividade03 from './pages/atividades/atv-03';
 import Atividade04 from './pages/atividades/atv-04';
-import Atividade05 from './pages/atividades/atv-05';
-import Atividade06 from './pages/atividades/atv-06';
+// import Atividade05 from './pages/atividades/atv-05';
+// import Atividade06 from './pages/atividades/atv-06';
 import Atividade07 from './pages/atividades/atv-07'; 
 import Atividade08 from './pages/atividades/atv-08';
-import Atividade09 from './pages/atividades/atv-09'; 
-import Atividade10 from './pages/atividades/atv-10';
+// import Atividade09 from './pages/atividades/atv-09'; 
+// import Atividade10 from './pages/atividades/atv-10';
 
 function App() {
 
@@ -49,18 +49,18 @@ function App() {
     <Route path="/exemplo/12" element={<Exemplo12 />} />
     <Route path="/exemplo/13" element={<Exemplo13 />} />
     <Route path="/exemplo/14" element={<Exemplo14 />} />
-    <Route path="/exemplo/15" element={<Exemplo15 />} />
+    {/* <Route path="/exemplo/15" element={<Exemplo15 />} /> */}
 
     <Route path="/atividade/1" element={<Atividade01 />} />
     <Route path="/atividade/2" element={<Atividade02 />} />
     <Route path="/atividade/3" element={<Atividade03 />} />
     <Route path="/atividade/4" element={<Atividade04 />} />
-    <Route path="/atividade/5" element={<Atividade05 />} />
-    <Route path="/atividade/6" element={<Atividade06 />} />
+    {/* <Route path="/atividade/5" element={<Atividade05 />} /> */}
+    {/* <Route path="/atividade/6" element={<Atividade06 />} /> */}
     <Route path="/atividade/7" element={<Atividade07 />} />
     <Route path="/atividade/8" element={<Atividade08 />} />
-    <Route path="/atividade/9" element={<Atividade09 />} />
-    <Route path="/atividade/10" element={<Atividade10 />} />
+    {/* <Route path="/atividade/9" element={<Atividade09 />} /> */}
+    {/* <Route path="/atividade/10" element={<Atividade10 />} /> */}
 
   </Routes>
   )
